@@ -3,8 +3,8 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras import layers, models
+from keras.utils import to_categorical
+from keras import layers, models
 
 # Load saved data
 X = np.load("X.npy")

@@ -1,5 +1,5 @@
 import numpy as np
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 from feature_extraction import extract_features
 
 # Load model
